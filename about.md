@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I'm Programmer for Python & Django. I've made quite a few web apps, especially on Django. Now, I am doing more on backend.
+I'm write Javascript, Python and C++ code. Lead developer for OneRelief and student at Goldsmiths, University of London.
 
-email: agus[at]python.web.id
+Interested in robots, artificial intelligence and deep learning.
+
+email me: winfred@onebigbot.com

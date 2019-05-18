@@ -31,6 +31,7 @@
 2. Edit site settings inside file of `_config.yml`
 3. Edit your projects at file of `projects.md`, `_data/projects.json` and inside path of `_project/` _(for detail project)_.
 4. Edit about yourself inside file of `about.md`
+5. Run `bundle exec jekyll serve --livereload`
 
 ### How to Use?
 
