@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I'm write Javascript, Python and C++ code. Lead developer for OneRelief and student at Goldsmiths, University of London.
+I write software with Javascript, Python and C++ code. Currently lead developer for OneRelief and student at Goldsmiths, University of London.
 
-Interested in robots, artificial intelligence and deep learning.
+I'm interested in robots, artificial intelligence and deep learning and competing in sporting events when not figuring out problems.
 
 email me: winfred@onebigbot.com
