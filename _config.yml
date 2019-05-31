@@ -14,7 +14,7 @@ collections:
   project:
     output: true
     permalink: /project/:path/
-w
+
 social:
     # - icon: fa-facebook
     #   link: "#"
