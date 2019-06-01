@@ -63,7 +63,34 @@ reference: [link - Khan Academy](https://www.khanacademy.org/computing/computer-
 6. Answer = $$3$$
 
 
-Here's the recursive algorithm with **Javascript**.
+Here's the recursive algorithm with **C++**.
+
+```c++
+#include <iostream>
+
+int gcd(int a, int b) {
+  if (a == 0 || b == 0) {
+    if (b > a) {
+      return b;
+    }
+    return a;
+  }
+  if (b > a) {
+    int c = a;
+    a = b;
+    b = c;
+  }
+  int result = a % b;
+  a = b;
+  b = result;
+  return gcd(a, b);
+}
+
+int main() {
+  std::cout << gcd(864, 291) << std::endl;
+}
+```
+GCD algorithm with **Javascript**.
 
 ```javascript
 // greatest common divisor for two numbers
@@ -89,4 +116,27 @@ function gcd(a, b) {
 }
 
 gcd(864, 291); // 3
+```
+
+GCD algorithm with **Python**.
+
+```python
+# greatest common divisor for two numbers
+def gcd(a, b):
+  if len(locals().keys()) > 2:
+    return
+  if a == 0 or b == 0 :
+    if b > a:
+      return b
+    return a
+  if b > a:
+    c = as
+    a = b
+    b = c
+  result = a % b
+  a = b
+  b = result
+  return gcd(a, b)
+
+print(gcd(864, 291))
 ```
