@@ -7,6 +7,58 @@ categories: [javascript, react]
 
 Reference: [https://facebook.github.io/react-native/docs/view#onlayout](https://facebook.github.io/react-native/docs/view#onlayout)
 
-{% gist 1d433aeb9efa747f7050ca060468ff3f %}
+**Warning** : Use `onLayout` to manage the display of UI elements _within_ a view, not the view itself.
 
-$$ 2 + x^2 = 11 $$
+`onLayout` immediately fires after the layout has been calculated, which will result in odd behaviour which the user might notice.
+
+Example:
+
+**Do this**
+
+```
+class Example extends Component {
+  state = {
+    renderLayout: false,
+  }
+
+  render() {
+    const { renderLayout } = this.state;
+    return (
+      <View
+        onLayout={() => this.setState({ renderLayout: true })}
+      >
+        {renderLayout ? 
+          <Text>Lorem Ipsum.</Text>
+          :
+          <ActivityIndicator color="#000000" size="large">
+        }
+      </View>
+    )
+  }
+}
+```
+
+
+**Not this**
+
+
+```
+class Example extends Component {
+  state = {
+    containerWidth: '80%',
+  }
+  
+  render() {
+    const { containerWidth } = this.state;
+    return (
+      <View
+        onLayout={() => this.setState({ containerWidth: '80%' })}
+      >
+        <View style={{ width: containerWidth }}>
+          <Text>Odd janky behavior.</Text>
+        </View>
+      </View>
+    )
+  }
+}
+```

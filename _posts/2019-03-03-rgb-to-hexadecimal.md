@@ -28,6 +28,8 @@ Hexadecimal numbers are numbers with base 16, $$ x_{16} $$ where x is an integer
 
 #### Hexadecimal values refresher
 
+Javascript
+
 ```javascript
 const rgbToHex = (rgb) => {
   if(rgb >= 255) {
