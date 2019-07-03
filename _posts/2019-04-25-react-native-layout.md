@@ -15,7 +15,7 @@ Example:
 
 **Do this**
 
-```
+```jsx
 class Example extends Component {
   state = {
     renderLayout: false,
@@ -42,7 +42,7 @@ class Example extends Component {
 **Not this**
 
 
-```
+```jsx
 class Example extends Component {
   state = {
     containerWidth: '80%',
@@ -54,7 +54,9 @@ class Example extends Component {
       <View
         onLayout={() => this.setState({ containerWidth: '80%' })}
       >
-        <View style={{ width: containerWidth }}>
+        <View
+          style={ { width: containerWidth} }
+        >
           <Text>Odd janky behavior.</Text>
         </View>
       </View>
