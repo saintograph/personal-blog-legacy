@@ -14,5 +14,21 @@
 		"url": "https://github.com/saintograph/diabetic-retinopathy-detection-model",
 		"date": "Jan 2019",
 		"tags": ["Deep Learning", "Tensorflow"]
+	},
+	{
+		"slug": "feed-me",
+		"name": "A PWA Yelp clone",
+		"image": "eye.jpg",
+		"url": "http://blooming-bayou-92213.herokuapp.com/",
+		"date": "Jan 2019",
+		"tags": ["Ruby on Rails", "React"]
+	},
+	{
+		"slug": "dog-breed-classification",
+		"name": "Deep learning neural network for classifying images of dog breeds.",
+		"image": "eye.jpg",
+		"url": "https://github.com/saintograph/dog-project",
+		"date": "Jan 2019",
+		"tags": ["Keras", "Tensorflow"]
 	}
 ]
