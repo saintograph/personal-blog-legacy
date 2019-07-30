@@ -2,8 +2,8 @@
 	{
 		"slug": "arctic-this-week",
 		"name": "The Arctic This Week",
-		"image": "placeholder.jpg",
-		"url": "#",
+		"image": "arctic-logo.png",
+		"url": "https://apps.apple.com/no/app/the-arctic-this-week/id1369029401",
 		"date": "Jan 2014",
 		"tags": ["React Native"]
 	},
@@ -11,7 +11,7 @@
 		"slug": "diabetic-retinopathy-detection",
 		"name": "Diabetic Retinopathy Detection with Deep Neural Networks",
 		"image": "eye.jpg",
-		"url": "#",
+		"url": "https://github.com/saintograph/diabetic-retinopathy-detection-model",
 		"date": "Jan 2019",
 		"tags": ["Deep Learning", "Tensorflow"]
 	}
