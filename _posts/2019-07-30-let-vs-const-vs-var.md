@@ -49,8 +49,11 @@ const foo = (() => multiply(add(1, 2), 2))(); // 6
 
 **Caveat**: The `var` keyword is still valid, `let` shouldn't be construed as an invitation to sprinkle variables all over a file's scope and `const` doesn't mean a variable is immutable, unlike C++ along with a hundred other peculiarities.
 
-One other thing to note is Javascript's garbage collection feature. Global variables sit in memory ( i.e. RAM ) indefinitely and use up resources.
 
-Properly scoped variables are 'garbage-collected', which means if a variable is scoped within a terminated function it is removed from memory. This feature isn't obvious on modern systems with oodles of RAM, but can cause hiccups if there's a memory leak or a improperly written Raspberry Pi iOT setup ( e.g. Johnny-Five: http://johnny-five.io )
+### Garbage collecting
+
+One other thing to note is Javascript's **garbage collection** feature. Global variables sit in memory ( i.e. RAM ) indefinitely and use up resources.
+
+Scoped variables are 'garbage-collected', which means if a variable is scoped within a terminated function it is removed from memory. This feature isn't obvious on modern systems with oodles of RAM, but can cause hiccups if there's a memory leak or a improperly written Raspberry Pi iOT setup ( e.g. [Johnny-Five](http://johnny-five.io) )
 
 Read about it [here](https://javascript.info/garbage-collection).
