@@ -18,7 +18,7 @@
 	{
 		"slug": "feed-me",
 		"name": "A PWA Yelp clone",
-		"image": "eye.jpg",
+		"image": "feed-me.jpg",
 		"url": "http://blooming-bayou-92213.herokuapp.com/",
 		"date": "Jan 2019",
 		"tags": ["Ruby on Rails", "React"]
