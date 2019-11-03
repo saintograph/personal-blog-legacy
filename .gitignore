@@ -5,3 +5,4 @@ _site*
 legacy
 
 node_modules
+public

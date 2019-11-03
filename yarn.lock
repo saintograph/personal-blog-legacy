@@ -5430,10 +5430,10 @@ gatsby-remark-copy-linked-files@^2.1.28:
     probe-image-size "^4.1.1"
     unist-util-visit "^1.4.1"
 
-gatsby-remark-flowchart@^0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-flowchart/-/gatsby-remark-flowchart-0.0.1.tgz#4afe0e3a563b68f66a94c1ed3ef2cbbb32fec1e7"
-  integrity sha512-ekbexEABMPbHzi8llCG/Reg34oPedo2SMh9SDSutpp1R1VDypkVWV7b8+tJWeWAcJx5S5XtoWwCt7ZgzbCIAPg==
+gatsby-remark-graph@^0.2.2:
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-graph/-/gatsby-remark-graph-0.2.2.tgz#c18b956d85d5fe1db223dd287b5888a4a8e95fab"
+  integrity sha512-kugn+Gt++B+E5UWHx5/pT/SlwjIXPZR7sNrARjTuYD8GX9op5X04KtSNd7/PMKmRrZwzzuiRg19qf60aOElFsQ==
   dependencies:
     unist-util-visit "^1.1.3"
 

@@ -79,11 +79,10 @@ module.exports = {
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-flowchart`,
+            resolve: 'gatsby-remark-graph',
             options: {
-              // see more details on https://github.com/adrai/flowchart.js
-              'fill': 'white',
-              'line-color': 'black',
+              language: 'mermaid',
+              theme: 'dark' // could also be dark, forest, or neutral
             }
           },
           {

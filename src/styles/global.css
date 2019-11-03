@@ -44,3 +44,12 @@
 	-moz-text-shadow: none;
   text-shadow: none;
 }
+
+.gatsby-highlight pre[class="language-html"]::before {
+  content: "HTML";
+  background: #f7df1e;
+  color: black;
+  -webkit-text-shadow: none;
+	-moz-text-shadow: none;
+  text-shadow: none;
+}
